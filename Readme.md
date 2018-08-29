@@ -29,7 +29,7 @@ Containers are stateless and ephemeral, this means that code will be written on 
 Important commands:
 1. To run the container:
 ```bash
-$docker run -it --rm -p 8888:8888 -v ~/<directory your work is in>:/home/jovyan/work/ ankitsiva/cs4540-docker
+$ docker run -it --rm -p 8888:8888 -v ~/<directory your work is in>:/home/jovyan/work/ ankitsiva/cs4540-docker
 ```
 
 2. Your console will tell you to go to a specific URL, you sould see all the files from the directory you specified in there.
