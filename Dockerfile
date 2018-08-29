@@ -13,5 +13,3 @@ COPY requirements.txt /tmp/
 #numpy
 #PyTorch
 RUN pip install numpy
-
-ENTRYPOINT /bin/bash
