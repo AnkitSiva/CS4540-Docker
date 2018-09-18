@@ -7,10 +7,9 @@
 #seaborn
 #jupyter
 #juypterlab
-FROM anibali/pytorch:no-cude
+FROM anibali/pytorch:no-cuda
 FROM jupyter/scipy-notebook
 COPY requirements.txt /tmp/
 #The remaining requirements are:
 #numpy
-#PyTorch
 RUN pip install numpy
