@@ -8,7 +8,6 @@
 #jupyter
 #juypterlab
 FROM jupyter/scipy-notebook
-COPY requirements.txt /tmp/
 #The remaining requirements are:
 #numpy
 #PyTorch
