@@ -9,7 +9,6 @@
 #juypterlab
 FROM anibali/pytorch:no-cuda
 FROM jupyter/scipy-notebook
-COPY requirements.txt /tmp/
 #The remaining requirements are:
 #numpy
 RUN pip install numpy
